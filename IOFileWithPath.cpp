@@ -15,11 +15,11 @@ int main() {
     // menunjuk ke sebuah nama file
     outfile.open(NamaFile + ".txt", ios::out);
 
-    cout << ">= Menulis file, \'q\' untuk keluar"
+    cout << ">= Menulis file, \'q\' untuk keluar";
 
       //unlimited loop untuk menulis
-    while(true) {
-        cout << "- ";
+    while (true) {
+        cout << "_ ";
         //mendapatkan setiap karakter dalam satu baris
         getline(cin, baris);
         //loop akan berenti jika anda memasukkan karakter q
